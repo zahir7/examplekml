@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Example High-Resolution KML</name>
+  <NetworkLink>
+    <name>High-Resolution Tiles</name>
+    <Region>
+      <LatLonAltBox>
+        <north>37.204081555898526</north>
+        <south>37.195330582800651</south>
+        <east>127.683105468749986</east>
+        <west>127.672119140624986</west>
+      </LatLonAltBox>
+      <Lod>
+        <minLodPixels>128</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <Link>
+      <href>http://example.com/highres_tiles/{z}/{x}/{y}.png</href>
+      <viewRefreshMode>onRegion</viewRefreshMode>
+    </Link>
+  </NetworkLink>
+</Document>
+</kml>
